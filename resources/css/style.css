@@ -1,0 +1,232 @@
+html, body {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.banner {
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  color: white;
+  padding-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu {
+  background-color: cadetblue;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.menualt {
+  display: none;
+}
+
+.whitelogo {
+  display: flex;
+  align-items: center;
+}
+
+.whitelogo img {
+  height: 1.5rem;
+  padding: 1rem;
+}
+
+.menulist {
+  justify-content: flex-end;
+  padding: 0 1rem;
+  margin-left: auto;
+}
+
+.menulist span {
+  padding: 1rem;
+}
+
+.container .motto {
+  max-width: 960px;
+  justify-content: flex-end;
+}
+
+.motto {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.motto span {
+  background-color: white;
+  color: black;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  text-align: right;
+}
+
+.serviceitems {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 8rem;
+  text-align: center;
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item img {
+  width: 5rem;
+  height: auto;
+  padding-bottom: 1rem;
+  padding: 0 3rem 1rem 3rem;
+}
+
+#exam img{
+  width: 3.5rem;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.infoitem {
+  width: 35%;
+  padding: 2.5%;
+}
+
+.infotitle {
+  background-color: cadetblue;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  max-width: 10rem;
+}
+
+footer {
+  background-color: azure;
+  display: flex;
+  padding: 0 3rem;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  width: auto;
+  padding: 4rem 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .motto span {
+    padding: 1.75rem 4rem;
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .banner {
+    padding-top: 0;
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .whitelogo span {
+    display: none;
+  }
+
+  .motto span {
+    font-size: 1rem;
+    margin-top: 9rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    margin: 9rem 0 0 0;
+  }
+
+  .menulist {
+    display: none;
+  }
+
+  .menualt {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1rem;
+    margin-left: auto;
+  }
+
+  .serviceitems {
+    flex-direction: column;
+    margin: 3.77rem auto;
+  }
+
+  .item {
+    margin-bottom: 1.54rem;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .infoitem {
+    width: 100%;
+    font-size: 0.77rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .infoitem p {
+    padding: 1rem 1rem 0 1rem;
+    text-align: left;
+  }
+
+  .infotitle {
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0;
+  }
+
+  #appts {
+    margin-top: 4rem;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer p {
+    display: none;
+  }
+}
